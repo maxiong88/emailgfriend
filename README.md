@@ -17,3 +17,10 @@ phantom 服务器必须设置字体，否则无法展示中文
 需要配置 SMTP 邮件信息等
 
 在node层需要做好边界处理，不然服务端出错，整个服务瘫痪
+
+## 说一下思路
+
++ phantomjs 页面生成图片
++ cornjs 定时器
++ nodemailer 邮件发送
++ xlsx 操作xls
